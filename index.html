@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tip Calculator App</title>
+</head>
+
+<body>
+
+<div id="logo">
+  <img src="./images/logo.svg">
+</div>
+
+<div class="content_box">
+  
+  <div class="main_1">
+    <div id="tag_name">Bill</div>
+    <input id="input_graph" type="number" placeholder="142.55"></input>
+    <img src="./images/icon-dollar.svg" id="dollar">
+  
+    <div id="tip">Select Tip %</div>
+
+        <div class="auto_percentage">
+          <button id="five">5%</button>
+          <button id="ten">10%</button>
+          <button id="fifteen">15%</button>
+          <button id="twentyfive">25%</button>
+          <button id="fifty">50%</button>
+          <input id="custom" tpye="number" placeholder="Custom">   
+        </div>
+        
+  <div class="tag_name">
+    <label id="people">Number Of People</label>
+  <label id="zero">Can’t be zero</label>
+  </div>
+  <input id="input_graph_2" type="number" placeholder="0"></input>
+  <img src="./images/icon-person.svg" id="person">
+
+</div>
+
+
+<div class="main_2">
+
+<div class="total_tip">
+  <span id="span_design">Tip Amount <br><p id="person_1">/ person</p></span>
+  <span id="total_number1">$0.00</span>
+</div>
+
+<div class="sum"> 
+  <span id="span_design">Total<br><p id="person_1">/ person</p></span>
+  <span id="total_number2">$0.00</span>
+</div>
+
+
+<div id="reset">Reset</div>  
+
+</div>
+
+
+<script src="./main.js"></script>
+
+</body>
+
+
+</html>
